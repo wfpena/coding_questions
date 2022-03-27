@@ -28,7 +28,6 @@ class Solution {
         Node nextLevel = null;
         while (node.left != null) {
             nextLevel = node.left;
-            // System.out.println(node.val);
             while (node != null) {
                 node.left.next = node.right;
                 if (node.next != null) {

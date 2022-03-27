@@ -262,7 +262,6 @@ class Solution {
     }
     
     private void helper(TreeNode root, TreeNode node, int min, int max, int count) {
-        // System.out.println("count: " + count);
         // if (count == 1) response.add(root);
         for (int i = min; i <= max; i++) {
             if (node.val < i) {
