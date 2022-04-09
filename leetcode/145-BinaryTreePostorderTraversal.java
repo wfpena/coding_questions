@@ -30,7 +30,6 @@ class Solution {
                 stk.push(node);
                 node = node.right;
             } else {
-                // System.out.println(node.val);
                 res.add(node.val);
                 node = null;
             }
