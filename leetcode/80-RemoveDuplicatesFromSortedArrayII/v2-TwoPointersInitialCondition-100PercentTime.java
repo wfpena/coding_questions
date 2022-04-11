@@ -21,8 +21,6 @@ class Solution {
             left++;
             nums[left] = prevNum;
         }
-        // System.out.println("prevNumCount: " + prevNumCount);
-        // System.out.println("left: " + left);
         return left+1;
     }
 }
