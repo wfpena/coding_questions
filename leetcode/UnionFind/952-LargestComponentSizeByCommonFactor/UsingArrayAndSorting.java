@@ -11,7 +11,6 @@ class Solution {
                 }
             }
         }
-        // System.out.println(Arrays.toString(map));
         Map<Integer, Integer> count = new HashMap<>();
         int maxSize = 1;
         for (int num : nums) {
