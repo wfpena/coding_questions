@@ -8,7 +8,6 @@ class Solution {
             curSum += nums[right++];
             while (curSum >= target) {
                 minLen = Math.min(minLen, right-left);
-                // if (minLen == 1) return minLen;
                 curSum -= nums[left++];
             }
             

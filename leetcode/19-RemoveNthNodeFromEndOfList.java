@@ -25,7 +25,6 @@ class Solution {
             ref = ref.next;
         }
         if (count == n) return head.next;
-        // System.out.println(count);
         ref2.next = ref2.next.next;
         return head;
     }

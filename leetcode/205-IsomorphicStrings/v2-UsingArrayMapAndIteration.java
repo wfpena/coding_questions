@@ -11,7 +11,6 @@ class Solution {
                 return false;
             }
             // System.out.println(Arrays.toString(map));
-            
         }
         return true;
     }
