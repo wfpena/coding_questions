@@ -10,3 +10,5 @@
     1. Implement an iterative solution
     2. Related Question: 214-DifferentWaysToAddParenthesis
     3. Leetcode 450 go back to resolution
+
+4. Problem 153 - Find Minimum In Rotated Sorted Array
